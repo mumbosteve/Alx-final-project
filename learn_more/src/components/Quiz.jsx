@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Question from "./Question";
 import Result from "./Result";
+import "./Quiz.css";
 
 const questions = [
   {
@@ -44,20 +45,20 @@ function Quiz() {
     }
   };
 
-  return (
-    <div className="w-full max-w-md bg-white rounded-xl shadow-lg p-6">
-      {!finished ? (
-        <Question
-          data={questions[current]}
-          onAnswer={handleAnswer}
-          current={current}
-          total={questions.length}
-        />
-      ) : (
-        <Result score={score} total={questions.length} />
-      )}
-    </div>
-  );
+return (
+  <div className="quiz-container">
+    {!finished ? (
+      <Question
+        data={questions[current]}
+        onAnswer={handleAnswer}
+        current={current}
+        total={questions.length}
+      />
+    ) : (
+      <Result score={score} total={questions.length} />
+    )}
+  </div>
+);
 }
 
 export default Quiz;

@@ -1,11 +1,11 @@
 function Question({ data, onAnswer, current, total }) {
   return (
     <div>
-      <h2 className="text-xl font-bold mb-4">
+      <h2 className="question">
         Question {current + 1} of {total}
       </h2>
       <p className="text-lg mb-6">{data.question}</p>
-      <div className="space-y-3">
+      <div className="options">
         {data.options.map((option, idx) => (
           <button
             key={idx}
