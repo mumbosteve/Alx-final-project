@@ -1,7 +1,8 @@
 import { useState } from "react";
 import Question from "./Question";
 import Result from "./Result";
-import "./Quiz.css";
+import "../index.css";
+
 
 const questions = [
   {

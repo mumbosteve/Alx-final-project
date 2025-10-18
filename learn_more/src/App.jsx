@@ -1,9 +1,9 @@
-import Quiz from "./components/Quiz";
+import TriviaQuiz from "./components/TriviaQuiz";
 
 function App() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <Quiz />
+    <div>
+      <TriviaQuiz />
     </div>
   );
 }
