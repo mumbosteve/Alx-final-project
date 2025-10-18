@@ -4,8 +4,10 @@ A simple and responsive quiz application built with React and Vite. The app allo
 
 ## Features
  -Built with React and Vite for fast development
- -Styled with Tailwind CSS 
+ -Styled with normal css 
  -Multiple-choice quiz functionality
  -Real-time score tracking
  -Fully responsive design 
  -Fetch questions from an external API (Open Trivia DB)
+
+ 

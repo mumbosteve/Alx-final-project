@@ -66,17 +66,17 @@ function TriviaQuiz() {
     // Fallback questions in case API fails
     const getFallbackQuestions = () => [
       {
-        question: "What is the capital of France?",
-        correct_answer: "Paris",
-        incorrect_answers: ["Nairobi", "Kisumu", "Kisii"],
+        question: "What is the capital of Kenya?",
+        correct_answer: "Nairobi",
+        incorrect_answers: ["Mombasa", "Kisumu", "Kisii"],
         category: "Geography",
         difficulty: "easy",
         type: "multiple"
       },
       {
-        question: "Which planet is known as the Red Planet?",
-        correct_answer: "Mars",
-        incorrect_answers: ["Venus", "Jupiter", "Saturn"],
+        question: "Which planet is known as the largest?",
+        correct_answer: "Jupiter",
+        incorrect_answers: ["Venus", "Mars", "Saturn"],
         category: "Science",
         difficulty: "easy",
         type: "multiple"
