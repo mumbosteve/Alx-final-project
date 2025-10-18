@@ -74,7 +74,7 @@ function TriviaQuiz() {
         type: "multiple"
       },
       {
-        question: "Which planet is known as the largest?",
+        question: "Which planet is the largest?",
         correct_answer: "Jupiter",
         incorrect_answers: ["Venus", "Mars", "Saturn"],
         category: "Science",
